@@ -333,7 +333,7 @@ void exportHTML(Evenement Agenda[], int n) {
                 sortie << "<td>" << heurefinal << ":0" << minutesfinal << "</td>" << endl;
             }
             else {
-                sortie << "<td>" << heurefinal << ":" << minutesfinal << "</td>" << endl;
+                sortie << "<td>" << heurefinale << ":" << minutesfinal << "</td>" << endl;
             }
 
         }
